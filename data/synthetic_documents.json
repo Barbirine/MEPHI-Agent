@@ -1,0 +1,14 @@
+{
+  "notice": "ИСКУССТВЕННЫЕ документы. Не материалы МИФИ.",
+  "documents": {
+    "synthetic_a.pdf": [
+      "A lum is a fictional unit of stored light.",
+      "Stored light is Q = n * q. Here n is the number of cells and q is light per cell.",
+      "Equal-cell theorem: if every cell stores q lums, n cells store n*q lums. Proof: add q exactly n times.",
+      "The demonstration device has n = 3 cells."
+    ],
+    "synthetic_b.pdf": [
+      "In the demonstration device each cell stores q = 4 lums."
+    ]
+  }
+}

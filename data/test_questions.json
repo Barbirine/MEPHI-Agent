@@ -1,0 +1,89 @@
+[
+  {
+    "question": "Что такое lum в искусственном документе?",
+    "expected_answer": "Вымышленная единица накопленного света.",
+    "expected_document": [
+      "synthetic_a.pdf"
+    ],
+    "expected_page": [
+      1
+    ],
+    "expected_context": [
+      "A lum is a fictional unit of stored light."
+    ],
+    "question_type": "definition"
+  },
+  {
+    "question": "Как вычисляется накопленный свет Q?",
+    "expected_answer": "Q = n * q, где n — число ячеек, q — свет в каждой ячейке.",
+    "expected_document": [
+      "synthetic_a.pdf"
+    ],
+    "expected_page": [
+      2
+    ],
+    "expected_context": [
+      "Stored light is Q = n * q. Here n is the number of cells and q is light per cell."
+    ],
+    "question_type": "formula"
+  },
+  {
+    "question": "Объясни теорему одинаковых ячеек и её доказательство.",
+    "expected_answer": "n одинаковых ячеек по q lum хранят n*q lum: нужно сложить q ровно n раз.",
+    "expected_document": [
+      "synthetic_a.pdf"
+    ],
+    "expected_page": [
+      3
+    ],
+    "expected_context": [
+      "Equal-cell theorem: if every cell stores q lums, n cells store n*q lums. Proof: add q exactly n times."
+    ],
+    "question_type": "theorem"
+  },
+  {
+    "question": "Какой будет формула Q для демонстрационного устройства при неизвестном q?",
+    "expected_answer": "Из Q=n*q и n=3 следует Q=3*q.",
+    "expected_document": [
+      "synthetic_a.pdf",
+      "synthetic_a.pdf"
+    ],
+    "expected_page": [
+      2,
+      4
+    ],
+    "expected_context": [
+      "Stored light is Q = n * q.",
+      "The demonstration device has n = 3 cells."
+    ],
+    "question_type": "multi_fragment"
+  },
+  {
+    "question": "Сколько lum хранит демонстрационное устройство по документам A и B?",
+    "expected_answer": "Q = 3 * 4 = 12 lum.",
+    "expected_document": [
+      "synthetic_a.pdf",
+      "synthetic_a.pdf",
+      "synthetic_b.pdf"
+    ],
+    "expected_page": [
+      2,
+      4,
+      1
+    ],
+    "expected_context": [
+      "Stored light is Q = n * q.",
+      "The demonstration device has n = 3 cells.",
+      "In the demonstration device each cell stores q = 4 lums."
+    ],
+    "question_type": "multi_document"
+  },
+  {
+    "question": "Какова масса демонстрационного устройства?",
+    "expected_answer": "В базе недостаточно информации для ответа.",
+    "expected_document": [],
+    "expected_page": [],
+    "expected_context": [],
+    "question_type": "unanswerable"
+  }
+]

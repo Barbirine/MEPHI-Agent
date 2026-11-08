@@ -1,0 +1,7 @@
+question,expected_answer,expected_document,expected_page,expected_context,question_type
+Что такое lum в искусственном документе?,Вымышленная единица накопленного света.,"[""synthetic_a.pdf""]",[1],"[""A lum is a fictional unit of stored light.""]",definition
+Как вычисляется накопленный свет Q?,"Q = n * q, где n — число ячеек, q — свет в каждой ячейке.","[""synthetic_a.pdf""]",[2],"[""Stored light is Q = n * q. Here n is the number of cells and q is light per cell.""]",formula
+Объясни теорему одинаковых ячеек и её доказательство.,n одинаковых ячеек по q lum хранят n*q lum: нужно сложить q ровно n раз.,"[""synthetic_a.pdf""]",[3],"[""Equal-cell theorem: if every cell stores q lums, n cells store n*q lums. Proof: add q exactly n times.""]",theorem
+Какой будет формула Q для демонстрационного устройства при неизвестном q?,Из Q=n*q и n=3 следует Q=3*q.,"[""synthetic_a.pdf"", ""synthetic_a.pdf""]","[2, 4]","[""Stored light is Q = n * q."", ""The demonstration device has n = 3 cells.""]",multi_fragment
+Сколько lum хранит демонстрационное устройство по документам A и B?,Q = 3 * 4 = 12 lum.,"[""synthetic_a.pdf"", ""synthetic_a.pdf"", ""synthetic_b.pdf""]","[2, 4, 1]","[""Stored light is Q = n * q."", ""The demonstration device has n = 3 cells."", ""In the demonstration device each cell stores q = 4 lums.""]",multi_document
+Какова масса демонстрационного устройства?,В базе недостаточно информации для ответа.,[],[],[],unanswerable
