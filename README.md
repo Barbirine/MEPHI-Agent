@@ -1,4 +1,4 @@
-# MIFI-Agent
+# MEPHI-Agent
 
 Минимальный RAG-ассистент для вопросов по PDF с текстовым слоем. Проект запускается локально, интерфейс — Streamlit, векторы для поиска считаются локально, ответы генерирует GigaChat API. GPU и отдельный сервер БД не нужны. Подготовлен для Python 3.11–3.12; доступные проверки выполнены на Linux/Python 3.12, не на macOS.
 
@@ -37,7 +37,7 @@ python -m streamlit run app.py
 ## Структура
 
 ```text
-MIFI-Agent/
+MEPHI-Agent/
 ├── app.py
 ├── config.py
 ├── requirements.txt
